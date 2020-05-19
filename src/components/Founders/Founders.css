@@ -1,0 +1,43 @@
+.card-title i{
+    display: none ;
+}
+.card-title {
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 36px;
+display: flex;
+align-items: center;
+
+color: #F79A27;
+
+
+}
+
+.card span{
+    margin: 1em;
+}
+.card-content div p{
+    margin: 1em;
+    font-family: Poppins;
+
+font-weight: 400;
+font-size: 14px;
+line-height: 27px;
+
+color: #F2F2F2;
+}
+
+.card {
+    background: linear-gradient(148.86deg, #021526 0%, #003049 100%), #C4C4C4;
+border-radius: 10px;
+min-height: 700px;
+}
+
+
+@media only screen and (max-width: 1280px) {
+   .card img{
+       width: 100% !important;
+   }
+     }

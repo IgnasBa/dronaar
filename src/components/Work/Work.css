@@ -1,0 +1,19 @@
+
+.industries2{
+    display: none;
+}
+
+@media only screen and (max-width: 1280px) {
+     .industries2{
+         display: block;}
+         .industry2{
+             display: none !important;
+         }
+}
+
+h2{
+    margin-top: 2em;
+}
+.ssds{
+    margin-top: 3em;
+}

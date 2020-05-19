@@ -1,0 +1,108 @@
+
+
+.landingImage{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/images/landingDrone.svg");
+}
+.landingImageAbout{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/images/abouts.svg");
+}
+.landingImageCareers{
+    width: 100%;
+    height: 100%;
+    background-image: url("../../assets/images/careers.svg");
+}
+.ssda{
+    z-index: 4;
+}
+h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 100px;
+    line-height: 72px;
+    margin-top: 150px;
+}
+#myVideo{
+    width: 200%;
+    margin-left: -50%;
+  height: auto;
+    z-index: -22;
+    position: absolute;
+  
+}
+.myVideoDiv{
+    width: 100%;
+    position: absolute;
+    min-height: 700px;
+    overflow: hidden;
+    
+   
+}
+
+@media only screen and (max-width: 1280px) {
+    .myVideoDiv{
+        height: auto;
+    }
+    #myVideo{
+        
+    }
+
+}
+@media only screen and (max-width: 530px) {
+
+    .ladn h1{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .kk{
+        min-height: 450px !important;
+       
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .ladn h1{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        font-size: 20px !important;
+    }
+    .ladn p{
+        font-size: 12px !important;
+    }
+    .kk {
+        min-height: 350px !important;
+    }
+    
+}
+p{
+    font-size: 24px;
+    font-weight: 400;
+    color: white;
+    line-height: 36px;
+}
+.lastGrid{
+    padding-bottom: 50px;
+}
+.get p{
+text-align: left;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px !important;
+line-height: 24px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+
+}
+
+.kk{
+    min-height: 650px ;
+}

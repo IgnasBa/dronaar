@@ -1,0 +1,85 @@
+#simple-modal-description{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    
+    color: #003049;
+    
+}
+#simple-modal-description strong{
+    font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 36px;
+
+color: #F79A27;
+
+}
+.closeBtn{
+    background: #F79A27;
+box-shadow: 0px 8px 16px rgba(52, 175, 249, 0.2);
+border-radius: 4px;
+color: #fff;
+padding: 0.5em 2em;
+}
+.openBtn{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: 0.01em;
+
+/* white */
+
+color: #FFFFFF;
+background: transparent;
+border: 1px #fff solid;
+padding: 0.5em 2em;
+margin-top: 2em;
+}
+
+@media only screen and (max-width: 1280px) {
+    #simple-modal-description{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 22px;
+        
+        color: #003049;
+        
+    }
+    #simple-modal-description strong{
+        font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 30px;
+    
+    color: #F79A27;
+    
+    }
+    h2{
+        font-size: 28px;
+        line-height: 52px;
+    }
+    h4{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    p{
+        font-size: 18px !important;
+    }
+    h1{
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .makeStyles-paper-137 {padding: 8px 16px 12px !important;}
+  }

@@ -1,0 +1,17 @@
+
+
+@media only screen and (max-width: 1280px) {
+ .get p {
+     text-align: center !important;
+ }
+ .page-footer h3{
+     display: block;
+ }
+ .ssd {
+     margin: 0 !important;
+ }
+  }
+
+  .example{
+      margin-top: 50px !important;
+  }
